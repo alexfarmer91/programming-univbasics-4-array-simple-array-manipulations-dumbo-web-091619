@@ -3,14 +3,14 @@ def using_push(Array, String)
   Array.push(String)
 end
 
-def using_unshift(Array, String)
-  Array.shift(String)
+def using_unshift(array, String)
+  array.shift(String)
 end
 
-def using_pop(Array)
-  Array.pop 
+def using_pop(array)
+  array.pop 
 end
 
-def pop_with_args(Array)
-  Array.pop(2)
+def pop_with_args(array)
+  array.pop(2)
 end
