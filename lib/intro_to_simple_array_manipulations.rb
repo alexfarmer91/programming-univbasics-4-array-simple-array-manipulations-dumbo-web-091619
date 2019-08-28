@@ -7,3 +7,7 @@ def using_unshift(Array, String)
   Array.shift(String)
 end
 
+def using_pop(Array)
+  Array.pop 
+end
+
